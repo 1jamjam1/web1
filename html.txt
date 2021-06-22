@@ -24,7 +24,7 @@ ex) 총점 : 10 <br>
      총점 : 10 <br><br> : 두번 줄바꿈
 
 2.5 <p>, </p> : 한 단락을 표시
-ex) <p> 요리는 재밌어 </p><p>
+ex) <p> 요리는 재밌어 </p><p> 
 
 2.6 <img src="경로 및 파일이름"> : 이미지 추가
 ex) 같은 경로에 이미지 : <img src="Tekken7_main.jpg">
@@ -46,6 +46,8 @@ ex ) <a target="_black">
 3.4 <title=""> : 마우스를 갔다대면 설명 표시
 ex) <title="철권7 나무위키">
 
+3.5 <input type="checkbox"> : 체크박스 생성
+ex) <input type="checkbox">
 
 4. 부모, 자식
 

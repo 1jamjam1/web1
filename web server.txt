@@ -1,0 +1,2 @@
+Bitnami WAMP 설치
+- window에서 apach를 설치하기 위해 사용
