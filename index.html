@@ -3,19 +3,66 @@
 <head>
   <title>Game - Home</title>
   <meta charset="utf-8">
+  <style>
+  body{
+    margin: 0;
+  }
+    #active {
+      color:red;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns: 100px 1fr;
+    }
+    #article {
+      padding-left:50px;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 60;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+    #grid ul{
+      border-right: 1px solid gray;
+      width : 100px;
+      margin: 0;
+      padding : 20px;
+    }
+    @media(max-width:620px){ /*가로 크기가 620보다 작을 경우*/
+      #grid {
+        display: block; /*목록과 글을 좌우로 나눈 것을 없앰*/
+      }
+      #grid ul{
+        border-right: none; /* 목록과 글 사이의 선 삭제*/
+      }
+      h1 {
+        border-bottom:none; /* h1과 밑에 글 사이의 선 삭*/
+      }
+    }
+  </style>
 </head>
 
 <body>
-<h1><a href="index.html">Game</a></h1>
-<ul>
-  <li><a href="Playstation.html">Playstation</a></li>
-  <li><a href="Nintendo.html">Nintendo</a></li>
-  <li><a href="PSP.html">PSP</a></li>
-</ul>
+<h1><a href="index.html" id="active">Game</a></h1>
 
-<p>
-소형 컴퓨터를 이용하여 게임을 즐길 수 있도록 만든 전자 장치
-</p>
+<div id="grid">
+  <ul>
+    <li><a href="Playstation.html" >Playstation</a></li>
+    <li><a href="Nintendo.html">Nintendo</a></li>
+    <li><a href="PSP.html">PSP</a></li>
+  </ul>
+  <div id="article">
+    <p>
+        소형 컴퓨터를 이용하여 게임을 즐길 수 있도록 만든 전자 장치
+    </p>
+  </div>
+</div>
 </body>
 
 </html>

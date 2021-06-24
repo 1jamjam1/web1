@@ -91,3 +91,34 @@ ex) <title>Game List</title>
 
 5.2 <meta charset="utf-8"> : HTTP를 charset(문자형식) utf-8로 읽어라
 ex) <meta charset="utf-8">
+
+6. 동영상 삽입
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T2wlmka0wx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+width(가로) = 560, height(새로) = 315, src(동영상 경로) = "주소", 
+
+7. 댓글 삽입 : 다른 사람이 만든 코드 사용, DISQUS
+ex)
+<script>
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://game-list.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+8. 채팅 기능 삽입 : 다른 사람이 만든 코드 사용, tawk
+ex)
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60d28bed65b7290ac637626a/1f8r756hl';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+9. 방문자 분석기 : analytics.google.com

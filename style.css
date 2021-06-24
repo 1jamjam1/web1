@@ -1,0 +1,33 @@
+
+#active {
+  padding-left: 50px;
+  margin: 0;
+}
+
+#grid {
+  display:grid;
+  grid-template-columns: 100px 1fr;
+}
+#grid ul{
+  border-right: 1px solid gray;
+  width : 100px;
+  margin: 0;
+  padding : 20px;
+}
+
+.font{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+
+}
+.info{
+  padding : 20px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
